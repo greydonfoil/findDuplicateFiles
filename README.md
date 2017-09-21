@@ -8,6 +8,8 @@ By default it only copies the duplicates, but with the `-m` tag it can move them
 
 # Usage
 
+	python findDupes.py -h
+
     usage: findDupes.py [-h] [-m] original check duplicates
 
     positional arguments:
@@ -21,5 +23,5 @@ By default it only copies the duplicates, but with the `-m` tag it can move them
 
 # Test Command
 
-	`mkdir duplicates`
-	`python findDupes.py test1 test2 duplicates`
+	mkdir duplicates
+	python findDupes.py test1 test2 duplicates
